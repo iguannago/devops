@@ -11,7 +11,7 @@ provider "aws" {
     profile = "default"
 }
 
-resource "aws_s3_bucket_acl" "tf_course" {
-    bucket = "tf-course-2022002"
+resource "aws_s3_bucket" "tf_course" {
+    bucket = "tf-course-2022003"
     acl = "private"
 }
